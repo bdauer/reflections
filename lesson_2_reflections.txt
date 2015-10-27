@@ -1,4 +1,14 @@
 What happens when you initialize a repository? Why do you need to do it?
+
 	Initializing a repository creates a .git file that tracks version histories.
 	Now the directory in which the git init command was used is treated as a
 	git repository and one can use git's version control with the project.
+	
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	The staging area is the place where work done in the working directory is stored
+	prior to a commit. The commit adds it to the repository. By having a staging area,
+	one can work and modify one's work across multiple files, and save those files,
+	without creating a commit. This means that it's easier to experiment without
+	breaking something and the commit log is kept neater.
