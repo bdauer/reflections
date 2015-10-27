@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Initializing a repository creates a .git file that tracks version histories.
+	Now the directory in which the git init command was used is treated as a
+	git repository and one can use git's version control with the project.

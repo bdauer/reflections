@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+	It allowed me to see the specific lines where changes had been made.
+	I didn't have to scan the whole file.
+	
+How could having easy access to the entire history of a file make you
+a more efficient programmer in the long term?
+
+	By having access to the entire history of a file I can:
+	quickly identify changes that I've made,
+	quickly identify changes made by other.
+	This would allow me to recognize when and where bugs arose in the codebase
+	more efficiently.
+	
+As a programmer, when would you want to have a version of your code saved?
+
+	At regular intervals to prevent a loss of work,
+	whenever there is a long pause for similar reasons,
+	when I choose to save a version when collaborating or trying to create
+	a version history.
+	
+What do you think are the pros and cons of manually choosing when to create 
+a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+
+	Manual commits allow for greater control. You can decide when it's appropriate
+	to update. This means that your commits have the potential to make more sense.
+	However, you may forget to save a file sometimes and lose data.
+
+Why do you think some version control systems, like Git, allow saving multiple 
+files in one commit, while others, like Google Docs, treat each file separately?
+
+	Some vc systems are designed for situations, like programming, where changes can
+	impact multiple files, or changes may take place across multiple files. In other
+	cases, the expectation is that files don't interact in the same manner. There is
+	no reason to add a multi-file commit where it isn't needed.
+
+How can you use the commands git log and git diff to view the history of files?
+
+	git log will pull up a list of recent commits that can be scrolled with the
+	arrow keys. git diff followed by two commit ids will compare the commits
+	and show any changes. Additions will have a plus, removals will have a minus.
+	If auto color is enabled, the former will be green and the latter will be
+	red.
+	
+How might using version control make you more confident to make changes
+that could break something?
+
+	With version control you know that you can always revert back to a previous
+	commit and catch what broke. You can even compare the two commits in order to
+	catch the change that caused the bug quickly.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+	I'd like to use git via github to track personal projects and get involved with
+	open source projects. 
