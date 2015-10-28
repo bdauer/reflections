@@ -12,3 +12,17 @@ What value do you think it offers?
 	one can work and modify one's work across multiple files, and save those files,
 	without creating a commit. This means that it's easier to experiment without
 	breaking something and the commit log is kept neater.
+	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Check the staging area against the working directory in order to see which
+	changes will go into the commit.
+	
+What are some situations when branches would be helpful 
+in keeping your history organized? How would branches help?
+
+	If you want to do extended work on a script that may or may not be included
+	in the final version, this will prevent confusion. It will make it easier to
+	find and revert to earlier versions without losing other changes to the code.
+	If you're doing independent work that will be completed before adding it to 
+	a larger project then the same holds true.
