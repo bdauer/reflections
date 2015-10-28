@@ -26,3 +26,8 @@ in keeping your history organized? How would branches help?
 	find and revert to earlier versions without losing other changes to the code.
 	If you're doing independent work that will be completed before adding it to 
 	a larger project then the same holds true.
+	
+How do the diagrams help you visualize the branch structure?
+	
+	The diagrams show eat commit as a node in a tree. Each branch can be traced
+	back to its root.
