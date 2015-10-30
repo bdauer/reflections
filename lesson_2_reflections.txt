@@ -31,3 +31,10 @@ How do the diagrams help you visualize the branch structure?
 	
 	The diagrams show eat commit as a node in a tree. Each branch can be traced
 	back to its root.
+	
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+	Merging combines two files, adding any additions and deleting any deletions from
+	those files. It is represented on the diagram to show that both histories are
+	accessible and the two branches are merged into one. 
