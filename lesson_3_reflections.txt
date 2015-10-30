@@ -12,3 +12,15 @@ Git automatically stay up-to-date with your remote repository?
 	be changes to the public repository that you'd rather not include in your own version,
 	and you'd prefer to create a new fork and exclude the changes to the public
 	repository.
+
+Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+	A branch is a separate local version of a project. A clone is a copy of a project that
+	links back to its repository. A fork is a copy of a project that links to a new
+	repository, separate from the original. Branches are useful when working on local
+	projects. They allow you to make changes without introducing bugs to the master.
+	Clones are useful for collaboration. You can make changes locally and then update
+	or propose changes to the main repository. Forks are useful when you don't have
+	permission to change the original repo or you would like your version of the
+	project to behave differently than the original.
