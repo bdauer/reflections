@@ -24,3 +24,11 @@ When would you use one instead of another?
 	or propose changes to the main repository. Forks are useful when you don't have
 	permission to change the original repo or you would like your version of the
 	project to behave differently than the original.
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	You can treat the last known state of the remote as a vanilla version, comparing
+	it to any changes that you might make. You can merge the vanilla version into yours
+	in order to check for compatibility if changes have been made since you created
+	your working branch. You can check the log locally to see what changes have been
+	made by other people.
