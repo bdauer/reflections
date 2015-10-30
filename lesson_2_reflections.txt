@@ -38,3 +38,10 @@ Why do we represent it in the diagram the way we do?
 	Merging combines two files, adding any additions and deleting any deletions from
 	those files. It is represented on the diagram to show that both histories are
 	accessible and the two branches are merged into one. 
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	By automatically merging files, git saves time and effort. It can still
+	alert the user when there is a conflict. On the other hand, if there isn't
+	any conflict and a change is unwanted in the branch being merge into, then
+	issues may be introduced that could be avoided by a manual merge.
