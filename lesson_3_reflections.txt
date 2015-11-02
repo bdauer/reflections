@@ -32,3 +32,13 @@ What is the benefit of having a copy of the last known state of the remote store
 	in order to check for compatibility if changes have been made since you created
 	your working branch. You can check the log locally to see what changes have been
 	made by other people.
+	
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+	I don't have exposure to other version control systems. I might use one of them.
+	I might otherwise use dropbox or google docs and track changes. Merging files would
+	be much more difficult. I'm not sure that anything would be easier. Realtime face-to-face
+	collaboration is a legitimate alternative. However, in that case, we'd all have to
+	be hovering over the same file. What if one of us needs a break and another is in
+	the zone?
