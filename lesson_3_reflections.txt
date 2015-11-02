@@ -42,3 +42,15 @@ and what would be harder?
 	collaboration is a legitimate alternative. However, in that case, we'd all have to
 	be hovering over the same file. What if one of us needs a break and another is in
 	the zone?
+	
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+	In general making a change to a branch is a better option. That way it's possible to
+	review changes. If someone else owns the repo, definitely make changes to a branch
+	so that the owner can review them. Working with a branch of the appropriate name
+	and then merging also leaves an additional paper trail for tracking down bugs.
+	
+	The benefit of changing the master directly is only convenience in the short-term.
+	If you're working alone, maybe you push directly to master, but I think it would
+	be good practice to always work in a branch that's then merged into master.
